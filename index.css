@@ -14,7 +14,7 @@ body {
     width: 100vw;
     height: 100vh;
     position: fixed;
-    background:rgb(255, 50, 50);
+    background:rgb(220, 205, 152);
     z-index: 999;
     display: flex;
     justify-content: center;
@@ -26,7 +26,7 @@ body {
     width:50px;
     height:50px;
     border:12px solid #fff;
-    border-bottom:12px solid rgb(255, 50, 50);
+    border-bottom:12px solid rgb(95, 2, 31);
     border-radius:50%;
     margin:0;
 }
@@ -47,10 +47,10 @@ body {
     display:inline-block;
 }
 .box1 {
-    background:rgb(255, 50, 50);
+    background:rgb(220, 205, 152);
 }
 .box2 {
-    background:rgb(255, 50, 50);
+    background:rgb(220, 205, 152);
     margin-left:-5px;
 }
 #menu {
@@ -62,7 +62,7 @@ body {
 #menu a {
     margin:0px 6%;
     font-size:19px;
-    color:#fff;
+    color:#727272;
     text-decoration:underline;
 }
 #middle {
@@ -75,14 +75,15 @@ body {
     top:0;
     text-align:center;
     z-index:1;
-    color:#fff;
+    color:#727272;
     padding-bottom:10vh;
 }
 #middle h1 {
-    color:rgb(255, 50, 50);
+    color:rgb(95, 2, 31);
     font-size:70px;
     text-decoration:underline;
 }
+
 #about {
     width:10vw;
     height:10vw;
@@ -90,7 +91,7 @@ body {
     font-size:25px;
     transform:rotate(-90deg);
     background:transparent;
-    color:#fff;
+    color:#242424;
     position:fixed;
     left:0;
     bottom:40vh;
@@ -108,7 +109,7 @@ body {
     font-size:25px;
     transform:rotate(90deg);
     background:transparent;
-    color:#fff;
+    color:#242424;
     position:fixed;
     right:0;
     bottom:40vh;
@@ -125,7 +126,7 @@ body {
     text-align:center;
     font-size:25px;
     background:transparent;
-    color:#fff;
+    color:#242424;
     position:fixed;
     bottom:0;
     left:45vw;
@@ -137,15 +138,15 @@ body {
     border-radius:100px 100px 0px 0px;
 }
 #about:hover {
-    background:rgba(255,50,50,0.9);
+    background:rgba(95, 2, 31);
     cursor:pointer;
 }
 #work:hover {
-    background:rgba(255,50,50,0.9);
+    background:rgba(95, 2, 31);
     cursor:pointer;
 }
 #contact:hover {
-    background:rgba(255,50,50,0.9);
+    background:rgba(95, 2, 31);
     cursor:pointer;
 }
 #middle table {
@@ -171,8 +172,8 @@ body {
     width:90vw;
     height:90vh;
     padding:5vh 5vw;
-    background:rgb(255, 50, 50);
-    color:#fff;
+    background:rgb(220, 205, 152);
+    color:#242424;
     z-index:9;
     position:fixed;
     max-height:100vh;
@@ -269,7 +270,7 @@ body {
     background:transparent;
     resize:none;
     transition:0.4s ease-in-out;
-    color:#fff;
+    color:#242424;
     font-weight:bold;
 }
 .container form input:focus {
@@ -281,10 +282,10 @@ body {
     border-bottom:3px solid rgba(255, 255, 255,1);
 }
 ::placeholder {
-    color:#fff;
+    color:#242424;
 }
 #footer {
-    color:#fff;
+    color:#242424;
     width:92vw;
     padding:5vh 4vw;
     text-align:right;
@@ -317,7 +318,7 @@ body {
 }
 ::selection {
 	color: #fff;
-	background: rgb(255, 50, 50);
+	background: rgb(220, 205, 152);
 }
 
 @media (max-width: 800px){ 
@@ -348,6 +349,7 @@ body {
     }
     #menu {
         display:inline-block;
+        color:#242424
     }
     #onlywide {
         display:none !important;
